@@ -48,6 +48,10 @@ font
     width: 1000px;
     height: 500px;
 }
+/*.spoiler-body
+{
+    display: none;    
+}*/
 
 .footer
 {

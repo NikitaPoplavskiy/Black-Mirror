@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
    $('a[href*=#]').bind("click", function(e){
       var anchor = $(this);      
       $('html, body').stop().animate({
@@ -7,7 +7,7 @@ $(document).ready(function(){
       e.preventDefault();              
    });
    return false;
-});
+});*/
 
 $(window).scroll(function(){
     if($(window).scrollTop() > 500)
@@ -18,5 +18,9 @@ $(window).scroll(function(){
     {
         $(".arrow").removeClass("active");
     }
+});
+
+$('.spoiler-title').click(function(){
+  $(".spoiler-body").fadeToggle(100);
 });
 
