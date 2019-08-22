@@ -42,16 +42,26 @@ font
 {
     font-size: 25px;
 }
-
+#player-container
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	aligh-content:center;
+}
+#player
+{
+	display:none;
+}
 .gif
 {
     width: 1000px;
     height: 500px;
 }
-/*.spoiler-body
+.spoiler-body
 {
     display: none;    
-}*/
+}
 
 .footer
 {
