@@ -1,0 +1,36 @@
+[
+	{
+		"num": 1,
+		"episodes": [{
+				"num": 1,
+				"title": "Государственный гимн",
+				"sources": [{
+						"name": "lostfilm",
+						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					},
+					{
+						"name": "ideafilm",
+						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					}
+				]
+			}
+		]
+	},
+	{
+		"num": 2,
+		"episodes": [{
+				"num": 1,
+				"title": "Государственный гимн",
+				"sources": [{
+						"name": "lostfilm",
+						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					},
+					{
+						"name": "ideafilm",
+						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					}
+				]
+			}
+		]
+	}
+]
