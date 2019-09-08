@@ -1,36 +1,44 @@
-[
-	{
-		"num": 1,
-		"episodes": [{
-				"num": 1,
-				"title": "Государственный гимн",
-				"sources": [{
-						"name": "lostfilm",
-						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
-					},
-					{
-						"name": "ideafilm",
-						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
-					}
-				]
-			}
-		]
-	},
-	{
-		"num": 2,
-		"episodes": [{
-				"num": 1,
-				"title": "Государственный гимн",
-				"sources": [{
-						"name": "lostfilm",
-						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
-					},
-					{
-						"name": "ideafilm",
-						"scr": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
-					}
-				]
-			}
-		]
-	}
-]
+{
+	"seasons": [
+		{
+			"num": 1,
+			"episodes": [
+				{
+					"num": 1,
+					"title": "Государственный гимн",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+				{
+					"num": 2,
+					"title": "15 миллионов баллов",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+				{
+					"num": 3,
+					"title": "Все твое прошлое",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				}
+			]
+		},
+		{
+			"num": 2,
+			"episodes": [
+				{
+					"num": 1,
+					"title": "Darova",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+				{
+					"num": 2,
+					"title": "Darova2",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+				{
+					"num": 3,
+					"title": "Darova3",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				}
+			]
+		}
+	]
+}

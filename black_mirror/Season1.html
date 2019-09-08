@@ -10,45 +10,57 @@
     <link rel="stylesheet" href="animate.css">
 	<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 	<link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>   
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
     <script src="wow.js"></script>
     <script type="text/javascript" src = "playerjs.js"></script>
     <script>
         new WOW().init();
     </script>
 	
-	<script type = "text/javascript" src = "1.js"></script>	
+	<script type = "text/javascript" src = "1.js"></script>
+
+    <script id="text-template" type="text/x-handlebars-template">
+        <span data-data="{{play_id}}" onclick = "showPlayer(this)">
+            <h1>Серия {{episode_num}}</h1> <b>{{title}}</b>
+        </span>
+    </script>
+
 </head>
 <body bgcolor = "#000000">
    
     <section id = "up" class="hero is-fullheight has-text-centered">
         <div class="hero-body">
-                <div class="container">
-                  <img class = gif src="images/source.gif" alt="">              
-                </div>                            
+            <div class="container">
+              <img class = gif src="images/source.gif" alt="">
+            </div>
         </div>
 		<div class="hero-foot">
-                    <nav class="tabs is-boxed is-fullwidth">
-                      <div class="container">
-                        <ul>
-                          <li><a class="spoiler-title"  href = "#s01e01"><font>Episode 1</font></a></li>
-                          <li><a class="spoiler-title"  href = "#s01e02"><font>Episode 2</font></a></li>
-                          <li><a class="spoiler-title"  href = "#s01e03"><font>Episode 3</font></a></li>                               
-                        </ul>						
-                        <div class="spoiler-body">
-                            <ul>
-                              <li><a href = "#player"><font>LostFilm</font></a></li>
-                              <li><a><font>IdeaFilm</font></a></li>
-                              <li><a><font>Кубик в Кубе</font></a></li>                               
-                            </ul>
-                        </div>
-                      </div>
-                    </nav>
+            <nav class="tabs is-boxed is-fullwidth">
+              <div class="container">
+                <ul>
+                  <li><a class="spoiler-title"  href = "#s01e01" data="s01e01"><font>Episode 1</font></a></li>
+                  <li><a class="spoiler-title"  href = "#s01e02" data="s01e01"><font>Episode 2</font></a></li>
+                  <li><a class="spoiler-title"  href = "#s01e03" data="s01e01"><font>Episode 3</font></a></li>
+                </ul>
+                <div class="spoiler-body">
+                    <ul>
+                      <li><a href = "#player"><font>LostFilm</font></a></li>
+                      <li><a><font>IdeaFilm</font></a></li>
+                      <li><a><font>Кубик в Кубе</font></a></li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
         </div>
 	</section>
+
+    <div id="episodeName">
+
+    </div>
 	
 	<div id="player-container">
-		<video id='player' class='video-js' controls preload='auto' width='640' height='264' <!--data-setup='{}'-->>
+		<video id='player' class='video-js' controls preload='auto' width='640' height='264' data-setup='{}'>
 		<source src='http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8' type='application/x-mpegURL'>    
 		<p class='vjs-no-js'>
 		  To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -57,11 +69,11 @@
 	   </video>
   </div>
   
-  <!--<script>
-  var player = videojs('player');
-  </script>-->
-  
+  <!--script>
+    let player = videojs('player');
+   </script-->
+
   <!----- -->
  
-<!--<script src='https://vjs.zencdn.net/7.6.0/video.js'></script>-->
+<<script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
 </body>
