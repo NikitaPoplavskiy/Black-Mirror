@@ -25,6 +25,18 @@
             <h1>Серия {{episode_num}}</h1> <b>{{title}}</b>
         </span>
     </script>
+    
+    <!--  Шаблон для кнопки сезонов  -->
+    <script id="season-button-template" type="text/x-handlebars-template">
+        <li><a class="spoiler-title"  href = "#s01e01" data='{{episodes}}0><font>Season {{season_num}}</font></a></li>
+    </script>
+    
+    
+<!--  Шаблон для кнопки эпизода  -->
+    <script id="episode-button-template" type="text/x-handlebars-template">
+        <li><a href = "#s01e01" data="s01e01"><font>Episode {{episode_num}}</font></a></li>
+    </script>
+    
 
 </head>
 <body bgcolor = "#000000">
@@ -38,16 +50,12 @@
 		<div class="hero-foot">
             <nav class="tabs is-boxed is-fullwidth">
               <div class="container">
-                <ul>
-                  <li><a class="spoiler-title"  href = "#s01e01" data="s01e01"><font>Episode 1</font></a></li>
-                  <li><a class="spoiler-title"  href = "#s01e02" data="s01e01"><font>Episode 2</font></a></li>
-                  <li><a class="spoiler-title"  href = "#s01e03" data="s01e01"><font>Episode 3</font></a></li>
-                </ul>
+               
+               <ul id="season-container">                    
+               </ul>
+                
                 <div class="spoiler-body">
-                    <ul>
-                      <li><a href = "#player"><font>LostFilm</font></a></li>
-                      <li><a><font>IdeaFilm</font></a></li>
-                      <li><a><font>Кубик в Кубе</font></a></li>
+                    <ul id="episode-container">
                     </ul>
                 </div>
               </div>

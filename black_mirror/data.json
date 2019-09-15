@@ -6,7 +6,7 @@
 				{
 					"num": 1,
 					"title": "Государственный гимн",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "https://streamguard.cc/manifest/index.m3u8?sksklajd=cbn983jknmd&tok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb3VyY2UiOiJzZXNzaW9uIiwiZXhwIjoxNTY4NTY3NDY1LCJ2IjoiMGYyNDk2MzY0NThlNzBjNSIsImEiOnRydWUsInAiOjE1NywiaCI6ImEyNTdiZjZlZWQyNjFiMGYyNWE4ZmM5YmRmNzQ5MjMzNTVmY2FkMTk5MzU5MWEzNWYzNmJiMzYxM2Y0MzViNDUiLCJyIjp0cnVlfQ.tal25LD5-IvraAEz6WFBDig-2d4z2UJgTzWzM_6cjxc"
 				},
 				{
 					"num": 2,
@@ -35,6 +35,21 @@
 				},
 				{
 					"num": 3,
+					"title": "Darova3",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 4,
+					"title": "Darova3",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 5,
+					"title": "Darova3",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 6,
 					"title": "Darova3",
 					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
 				}
