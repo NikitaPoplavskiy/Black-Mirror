@@ -15,11 +15,20 @@ $(document).ready(function(){
       e.preventDefault();              
    });
 	
-    $('.spoiler-body').click(function(){
+    /*$('.spoiler-body').click(function(event){
+        episodes_name = event.target.getAttribute("data");
+        $("#episode-name").empty();
+        renderEpisodeName(episodes_name);
+        $(".episode-name").slideToggle(500);
+		$(".video-js").slideToggle(500);
+    });*/
+
+    $('.spoiler-body').click(function(){        
 		$(".video-js").slideToggle(500);
     });
-
-    let seasons = {};
+    
+    let seasons = {};    
+    
     $.getJSON("data.json", function(data){
         seasons = data;
         console.log(seasons);
@@ -27,13 +36,22 @@ $(document).ready(function(){
         console.log("Test");
           renderSeasonsButtons(seasons);
         $('.spoiler-title').click(function(event)
-        {	   
-           episodes = event.target.getAttribute("data");
-           console.log(event.target);    
-           console.log(episodes);
-           $("#episode-container").empty();
-           renderEpisodesButtons(episodes);    
-           $(".spoiler-body").fadeToggle(100);  
+        {	           
+            episodes = event.target.getAttribute("data");
+            console.log(event.target);    
+            console.log(episodes);
+            $("#episode-container").empty();
+            renderEpisodesButtons(episodes);    
+            $(".spoiler-body").slideToggle(500);                                
+        });
+        let list =  document.getElementsByTagName();
+        $("list").click(function(event)
+        {
+            episodes_name = event.target.getAttribute("data");
+            console.log(event.target);
+            console.log(episodes_name);
+            $("#episode-name").empty();
+            renderEpisodeName(episodes_name);
         });
     });
     
@@ -62,7 +80,7 @@ function renderEpisodesButtons(episodesTxt)
     let source = document.getElementById('episode-button-template').innerHTML;
     let template = Handlebars.compile(source);
     let context;
-    let episodes = JSON.parse(episodesTxt);
+    let episodes = JSON.parse(episodesTxt);    
     
 //    console.log(JSON.stringify(episodes));    
     for (let episode of episodes) {
@@ -74,7 +92,7 @@ function renderEpisodesButtons(episodesTxt)
     }    
 }
 
-function renderSeasons(data)
+/*function renderSeasons(data)
 {
     console.log(JSON.stringify(data));
     let source   = document.getElementById('text-template').innerHTML;
@@ -90,6 +108,23 @@ function renderSeasons(data)
             $("#episodeName").append(html);
         }
     }
+}*/
+
+function renderEpisodeName(nameTxt)
+{
+    let source   = document.getElementById('name-template').innerHTML;
+    let template = Handlebars.compile(source);
+    let context;
+    
+    let episodes_name = JSON.parse(nameTxt);
+    
+    for (let episode of episodes_name) {
+//            console.log(`Season  ${season.num}, episode ${JSON.stringify(episode)}`);
+        context = {episode_name: episode.title};
+        let html = template(context);
+
+        $("#episode-name").append(html);
+    }        
 }
 
 

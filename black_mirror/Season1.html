@@ -34,9 +34,13 @@
     
 <!--  Шаблон для кнопки эпизода  -->
     <script id="episode-button-template" type="text/x-handlebars-template">
-        <li><a href = "#s01e01" data="s01e01"><font>Episode {{episode_num}}</font></a></li>
+        <li><a href = "#s01e01"><font>Episode {{episode_num}}</font></a></li>
     </script>
     
+<!--  Шаблон для названия серии  -->
+    <script id="name-template" type="text/x-handlebars-template">
+        <h1 data='{{episodes_name}}'>{{episode_name}}</h1>
+    </script>
 
 </head>
 <body bgcolor = "#000000">
@@ -63,8 +67,8 @@
         </div>
 	</section>
 
-    <div id="episodeName">
-
+    <div id="episode-name">
+        
     </div>
 	
 	<div id="player-container">
@@ -83,5 +87,5 @@
 
   <!----- -->
  
-<<script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
+<script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
 </body>

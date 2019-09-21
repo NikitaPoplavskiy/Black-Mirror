@@ -25,35 +25,121 @@
 			"episodes": [
 				{
 					"num": 1,
-					"title": "Darova",
+					"title": "Скоро вернусь",
 					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
 				},
 				{
 					"num": 2,
-					"title": "Darova2",
+					"title": "Белый медведь",
 					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
 				},
 				{
 					"num": 3,
-					"title": "Darova3",
+					"title": "Встречайте Уолдо",
 					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
 				},
                 {
 					"num": 4,
-					"title": "Darova3",
+					"title": "Белое рождество",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				}                
+			]
+		},        
+        {
+            "num" : 3,
+            "episodes": [
+                {
+					"num": 1,
+					"title": "Крушение",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 2,
+					"title": "Бета-версия",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 3,
+					"title": "Заткнись и танцуй",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 4,
+					"title": "Сан-Жуниперо",
 					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
 				},
                 {
 					"num": 5,
-					"title": "Darova3",
+					"title": "Никто не хотел убивать",
 					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
 				},
                 {
 					"num": 6,
-					"title": "Darova3",
+					"title": "Народный гнев",
 					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
 				}
-			]
-		}
-	]
+            ]
+        },
+        {
+            "num" : 4,
+            "episodes": [
+               {
+					"num": 1,
+					"title": "Каллистер",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 2,
+					"title": "Аркангел",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 3,
+					"title": "Крокодил",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 4,
+					"title": "Повесть диджея",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 5,
+					"title": "Стальная башка",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				},
+                {
+					"num": 6,
+					"title": "Черный музей",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+				}
+            ]
+        },
+        {
+            "num" : 5,
+            "episodes": 
+            [
+                {
+                    "num": 0,
+					"title": "Брандашмыг",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+                },
+                {
+                    "num": 1,
+					"title": "Поразительные гадюки",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+                },
+                {
+                    "num": 2,
+					"title": "Осколки",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+                },
+                {
+                    "num": 3,
+					"title": "Рейчел,Джек и Эшли тоже",
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+                }
+            ]
+        }
+    ]
 }
