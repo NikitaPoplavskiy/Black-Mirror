@@ -6,17 +6,17 @@
 				{
 					"num": 1,
 					"title": "Государственный гимн",
-					"source": "https://streamguard.cc/manifest/index.m3u8?sksklajd=cbn983jknmd&tok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb3VyY2UiOiJzZXNzaW9uIiwiZXhwIjoxNTY4NTY3NDY1LCJ2IjoiMGYyNDk2MzY0NThlNzBjNSIsImEiOnRydWUsInAiOjE1NywiaCI6ImEyNTdiZjZlZWQyNjFiMGYyNWE4ZmM5YmRmNzQ5MjMzNTVmY2FkMTk5MzU5MWEzNWYzNmJiMzYxM2Y0MzViNDUiLCJyIjp0cnVlfQ.tal25LD5-IvraAEz6WFBDig-2d4z2UJgTzWzM_6cjxc"
+					"source": "http://s4.seplay.net/content/stream/films/schernoe.zerkalo.1.sezon.1.seriya.iz.3.2011.x264.hdtvrip.720p.kubik.v.kube/hls/index.m3u8"
 				},
 				{
 					"num": 2,
 					"title": "15 миллионов баллов",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/schernoe.zerkalo.1.sezon.2.seriya.iz.3.2011.x264.hdtvrip.720p.kubik.v.kube/hls/index.m3u8"
 				},
 				{
 					"num": 3,
 					"title": "Все твое прошлое",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/schernoe.zerkalo.1.sezon.3.seriya.iz.3.2011.x264.hdtvrip.720p.kubik.v.kube/hls/index.m3u8"
 				}
 			]
 		},
@@ -24,25 +24,25 @@
 			"num": 2,
 			"episodes": [
 				{
+					"num": 0,
+					"title": "Белое рождество",
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s03e00.white.christmas.webdl.720p.rus.eng.kubik_v_kube/hls/index.m3u8"
+				},
+				{
 					"num": 1,
 					"title": "Скоро вернусь",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s02e01.hdtv.1080.casstudio.tv/hls/index.m3u8"
 				},
 				{
 					"num": 2,
 					"title": "Белый медведь",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s02e02.hdtv.1080.casstudio.tv/hls/index.m3u8"
 				},
 				{
 					"num": 3,
 					"title": "Встречайте Уолдо",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
-				},
-                {
-					"num": 4,
-					"title": "Белое рождество",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
-				}                
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s02e03.hdtv.1080.casstudio.tv/hls/index.m3u8"
+				}
 			]
 		},        
         {
@@ -51,32 +51,32 @@
                 {
 					"num": 1,
 					"title": "Крушение",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s03e01.nosedive.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 2,
 					"title": "Бета-версия",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s03e02.playtest.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 3,
 					"title": "Заткнись и танцуй",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s03e03.shut.up.and.dance.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 4,
 					"title": "Сан-Жуниперо",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s03e04.san.junipero.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 5,
 					"title": "Никто не хотел убивать",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s4.seplay.net/content/stream/films/black.mirror.s03e05.men.against.fire.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 6,
 					"title": "Народный гнев",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s03e06.webrip.1080p.casstudiotv_67638/hls/index.m3u8"
 				}
             ]
         },
@@ -86,32 +86,32 @@
                {
 					"num": 1,
 					"title": "Каллистер",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s04e01.uss.callister.1080p.webdl.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 2,
 					"title": "Аркангел",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s04e02.arkangel.1080p.webdl.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 3,
 					"title": "Крокодил",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s04e03.crocodile.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 4,
 					"title": "Повесть диджея",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s04e04.hang.the.dj.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 5,
 					"title": "Стальная башка",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s04e05.metalhead.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				},
                 {
 					"num": 6,
 					"title": "Черный музей",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s04e06.black.museum.720p.webrip.kvk.casstudio.tv/hls/index.m3u8"
 				}
             ]
         },
@@ -122,22 +122,22 @@
                 {
                     "num": 0,
 					"title": "Брандашмыг",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+					"source": "http://s2.seplay.net/content/stream/films/black.mirror.bandersnatch.2018.1080p.web.x264_88018/hls/index.m3u8"
                 },
                 {
                     "num": 1,
 					"title": "Поразительные гадюки",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s05e01.striking.vipers.1080p.webdl.hevc.hdr.kvk.casstudio.tk_104994/hls/index.m3u8"
                 },
                 {
                     "num": 2,
 					"title": "Осколки",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s05e02.smithereens.720p.webrip.kvk.casstudio.tk_105401/hls/index.m3u8"
                 },
                 {
                     "num": 3,
 					"title": "Рейчел,Джек и Эшли тоже",
-					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s01e01.1080p.rus.lostfilm.tv/hls/index.m3u8"  
+					"source": "http://s1.seplay.net/content/stream/films/black.mirror.s05e03.rachel.jack.and.ashley.too.720p.webrip.kvk.casstudio.tk_105402/hls/index.m3u8"
                 }
             ]
         }

@@ -38,10 +38,26 @@
   transform: scale(0.9);
 }
 
-font
+/*font*/
+/*{*/
+    /*font-size: 25px;*/
+/*}*/
+
+/*.spoiler-title*/
+/*{*/
+    /*font-size: 25px;*/
+/*}*/
+
+/*.episode-button*/
+/*{*/
+    /*font-size: 25px;*/
+/*}*/
+
+.item-font
 {
     font-size: 25px;
 }
+
 #player-container
 {
 	display:flex;
@@ -49,10 +65,20 @@ font
 	justify-content:center;
 	aligh-content:center;
 }
+
+#episode-name
+{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    aligh-content:center;
+}
+
 #player
 {
 	display:none;
 }
+
 .gif
 {
     width: 1000px;
