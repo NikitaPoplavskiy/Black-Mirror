@@ -1,9 +1,8 @@
 let player;
+let movePlayer = true;
+let moveSeasons = true;
 
-$(document).ready(function(){
-	 $('.spoiler-title').click(function(){
-		$(".spoiler-body").slideToggle(500);  		
-	});
+$(document).ready(function(){	 
 	
     $('a[href*=#][class="test"]').bind("click", function(e){
       var anchor = $(this);      
@@ -20,9 +19,17 @@ $(document).ready(function(){
         $(".episode-name").slideToggle(500);
 		$(".video-js").slideToggle(500);
     });*/
+    $('.spoiler-title').click(function(){        
+        
+        $(".spoiler-body").slideToggle(500);             
+	});
 
     $('.spoiler-body').click(function(){        
-		$(".video-js").slideToggle(500);
+        if(movePlayer == true){
+            $(".gif").hide();
+		    $(".video-js").slideToggle(500);
+            movePlayer = false;
+        }               
     });
     
     let seasons = {};    
@@ -31,14 +38,25 @@ $(document).ready(function(){
         seasons = data;
     }).done(function() {
         console.log("Test");
-          renderSeasonsButtons(seasons);
+          renderSeasonsButtons(seasons);        
         $('.spoiler-title').click(function(event)
-        {	           
-            let episodes = event.target.getAttribute("data");
+        {	                                   
+            let episodes = event.target.getAttribute("data");            
             $("#episode-container").empty();
+            
+            /*if(moveSeasons == true){
+               
+                $(".spoiler-body").slideDown("slow");    
+                moveSeasons = false;
+            }
+            else{
+                
+                $(".spoiler-body").slideUp("slow");    
+                $(".spoiler-body").slideDown("slow");                
+            }*/
             renderEpisodesButtons(episodes);
 
-            //Назначаем проигрывание выбраного эпизода по щелчку
+            //Назначаем проигрывание выбраного эпизода по щелчку            
             $('.episode-button').click(function(event)
             {
                 let videoSource = event.target.getAttribute("data-source");
@@ -50,9 +68,17 @@ $(document).ready(function(){
                 let player = videojs('player');
                 player.src(videoSource);
 
-            });
-
-            $(".spoiler-body").slideToggle(500);
+            });                        
+            if(moveSeasons == true){
+               
+                $(".spoiler-body").slideDown("slow");    
+                moveSeasons = false;
+            }
+            /*else{
+                
+                $(".spoiler-body").slideUp("slow");    
+                $(".spoiler-body").slideDown("slow");                
+            }*/
         });
     });
 });
